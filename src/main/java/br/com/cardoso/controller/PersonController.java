@@ -19,8 +19,7 @@ public class PersonController {
     // highlight-start
     @GetMapping("/person")
     public ResponseEntity<Person> test() {
-        System.out.println("Teste para modificação do conteúdo de maneira não sincronizada");
-        return ResponseEntity.ok(personService.getPerson()) ;
+        return ResponseEntity.ok(personService.getPerson());
     }
     // highlight-end
 }
