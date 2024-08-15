@@ -19,6 +19,7 @@ public class PersonController {
     // highlight-start
     @GetMapping("/person")
     public ResponseEntity<Person> test() {
+        System.out.println("Teste final com atualização de submódulos");
         return ResponseEntity.ok(personService.getPerson());
     }
     // highlight-end
