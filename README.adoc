@@ -18,16 +18,16 @@ Explicação da proposta do guia
 
 ==== Model
 
-include::src/main/java/br/com/cardoso/model/Person.java#L1-L4
+include::src/main/java/br/com/cardoso/model/Person.java
 
 ==== Interface do Serviço
 
-include::src/main/java/br/com/cardoso/service/PersonService.java#L1-L8
+include::src/main/java/br/com/cardoso/service/PersonService.java
 
 ==== Implementação do Serviço
 
-include::src/main/java/br/com/cardoso/service/impl/PersonServiceImpl.java#L1-L14
+include::/src/main/java/br/com/cardoso/service/impl/PersonServiceImpl.java
 
 ==== Controller
 
-include::src/main/java/br/com/cardoso/controller/PersonController.java#L1-L22
+include::/src/main/java/br/com/cardoso/controller/PersonController.java
