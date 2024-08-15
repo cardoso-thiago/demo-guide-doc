@@ -1,0 +1,33 @@
+= Exemplo de documentação de guide
+
+== Pré Requisitos
+
+* Lista de pré requisitos
+
+== Começando do zero
+
+* Passos e comandos para iniciar do zero
+
+== Execução do exemplo
+
+* Passos para clone do repositório apontando para a doc específica
+
+=== Detalhes da implementação
+
+Explicação da proposta do guia
+
+==== Model
+
+include::src/main/java/br/com/cardoso/model/Person.java#L1-L4
+
+==== Interface do Serviço
+
+include::src/main/java/br/com/cardoso/service/PersonService.java#L1-L8
+
+==== Implementação do Serviço
+
+include::src/main/java/br/com/cardoso/service/impl/PersonServiceImpl.java#L1-L14
+
+==== Controller
+
+include::src/main/java/br/com/cardoso/controller/PersonController.java#L1-L22
